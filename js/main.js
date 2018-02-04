@@ -6,12 +6,12 @@ console.log("User flipped " + cardThree);
 var cards = ["queen", "queen", "king", "king"];
 var cardsInPlay = [];
 
-var cards[0] = "queen";
+var cardOne = cards[0];
 
 cardsInPlay.push(cards[0]);
 console.log("User flipped queen");
 
-var cards[3] = "king";
+var cardTwo = cards[3];
 
 cardsInPlay.push(cards[3]);
 console.log("User flipped king");
